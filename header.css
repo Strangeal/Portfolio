@@ -15,4 +15,9 @@ i {
     justify-content: space-between;
     padding: 10px;
   }
+
+  .header {
+    background-color: green;
+  }
+  
 }
