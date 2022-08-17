@@ -10,34 +10,62 @@
 - html
 - css
 
-## Getting Started
+## Live Demo
 
-In order to use the files you should have to clone it and then follow the instruction given below.
+[Live Demo Link](git@github.com:Strangeal/Portfolio.git)
+
+## Get Started
+
+To get the content of this project locally you need to run the following commands in your terminal.
 
 ### Prerequisites
- - Good Knowlege on HTML and CSS (Semantics,Box-Model, Background style and Image Tag, Flexbox, Grid and Media Query)
- - Install Node.js, Npm Copy the linters from https://github.com/microverseinc/linters-config/tree/master/html-css
- - Please install the HTML, CSS and Lighthouse linters using Node Package Manager by typing below commands
-   
-   * npm install -g @lhci/cli@0.7.x (For LightHouse linter)
-   * npm install --save-dev hint@7.x
-          [ -f .hintrc ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css/.hintrc (For HTML linter)
-   * npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-          [ -f .stylelintrc.json ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css/.stylelintrc.json
+- IDE(code editor) like: **Vscode**, **Sublime**, etc. 
+- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
 
 ### Setup
-- **use "git clone https://github.com/skyv26/portfolio.git"**
-- After adding html skeleton and adding style make sure your work by running test linters by typing following commands
-  * npx hint . **[For HTML debugging]**
-  * npx stylelint "**/*.{css,scss}"   **[For CSS debugging]**
+1. Download the **Zip** file or clone the repo with:
+```bash
+git clone git@github.com:Strangeal/Portfolio.git
+```
+3. To access cloned directory run:
+```bash
+cd MyPortfolio
+```
+3. Open it with the live server
+
+### Install
+> To install linters and other project's dependencies run:
+```bash
+npm install
+```
+## Run Test for Linters
+
+For tracking linter errors locally you need to follow these steps:
+
+1. For tracking linter errors in HTML files run:
+```bash 
+npx hint .
+```
+
+2. For tracking linter errors in CSS or SASS files run:
+
+```bash
+npx stylelint "\*_/_.{css,scss}"
+```
+
+3. For tracking linter errors in JavaScript files run:
+
+```bash
+npx eslint .
+```
 
 ## Author
 
 👤 **Justice Bajeri**
 
-- GitHub: [@githubhandle](https://github.com/Strangeal)
-- Twitter: [@twitterhandle](https://twitter.com/Str_angeal)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/justice-bajeri-0b7211243/)
+- GitHub: [@strangeal](https://github.com/Strangeal)
+- Twitter: [@str_angeal](https://twitter.com/Str_angeal)
+- LinkedIn: [Justice Bajeri](https://www.linkedin.com/in/justice-bajeri-0b7211243/)
 
 
 ## 🤝 Contributing
