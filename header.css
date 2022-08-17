@@ -10,13 +10,14 @@ body {
   font-style: normal;
 }
 
-h4,
-i {
-  color: #6070ff;
-}
-
 a {
   text-decoration: none;
+}
+
+a .logo,
+h4 {
+  color: #6070ff;
+  font-weight: 700;
 }
 
 /* Styles for screens with min-width of 400px */
@@ -34,6 +35,8 @@ a {
 }
 
 .dev {
+  display: flex;
+  flex-direction: column;
   position: relative;
   margin: 9rem 1.8rem;
 }
@@ -63,6 +66,8 @@ a {
 .social-icons {
   margin: 1rem 0;
   height: 20px;
+  display: flex;
+  padding: 0;
 }
 
 .social-icons a {
@@ -71,6 +76,10 @@ a {
 
 .social-icons img {
   width: 1rem;
+}
+
+.social-icons li {
+  list-style: none;
 }
 
 .bg-shapes {
