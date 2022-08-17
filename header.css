@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+
+h4,
+i {
+  color: #6070ff;
+}
+
+@media (min-width: 400px) {
+  .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+  }
+}
