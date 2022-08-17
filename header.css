@@ -14,8 +14,8 @@ a {
   text-decoration: none;
 }
 
-a .logo,
-h4 {
+.logo a,
+nav {
   color: #6070ff;
   font-weight: 700;
 }
