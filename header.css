@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
   margin: 0;
 }
@@ -7,14 +9,15 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
 }
-h4, i {
+
+h4,
+i {
   color: #6070ff;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* Styles for screens with min-width of 400px */
 
@@ -40,7 +43,7 @@ a {
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 52px;
-    color: #172B4d;
+    color: #172b4d;
   }
 
   .dev p {
@@ -51,23 +54,23 @@ a {
     margin: 1rem 0;
   }
 
-.dev a {
+  .dev a {
     font-weight: 500;
     color: #7f8cff;
     line-height: 24px;
     font-size: 1rem;
-}
+  }
 
-.social-icons {
-    margin: 1rem 0px;
+  .social-icons {
+    margin: 1rem 0;
     height: 20px;
-} 
+  }
 
-.social-icons a {
+  .social-icons a {
     margin-right: 18px;
-}
+  }
 
-.social-icons img {
+  .social-icons img {
     width: 1rem;
-}
+  }
 }
