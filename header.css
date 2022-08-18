@@ -20,7 +20,6 @@ a {
   font-weight: 700;
 }
 
-/* Styles for screens with min-width of 400px */
 .navigation {
   display: flex;
   flex-flow: row wrap;
@@ -180,6 +179,9 @@ button {
 }
 
 .about {
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #f5f6f8;
   width: auto;
   height: max-content;
   display: flex;
@@ -189,7 +191,7 @@ button {
 }
 
 .about h1 {
-  font-size: 40px;
+  font-size: 3.5rem;
   line-height: 52px;
   font-weight: 700;
 }
@@ -200,4 +202,55 @@ button {
   font-size: 1rem;
   font-weight: 400;
   margin: 1rem 0;
+}
+
+.skill-list ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.skill-list li {
+  list-style: none;
+}
+
+.p {
+  padding: 1rem;
+}
+
+.skill-list .p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+
+.lang {
+  display: flex;
+  flex-direction: column;
+}
+
+.lang li {
+  display: flex;
+  align-items: center;
+  color: #253858;
+  font-size: 14px;
+  background: #f7f7f9;
+  padding: 12px;
+  margin: 6px;
+  border-radius: 8px;
+}
+
+li .lang-child img {
+  margin-right: 10px;
+}
+
+.counter {
+  margin-top: 10px;
+  float: right;
+}
+
+.hr {
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
 }
