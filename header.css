@@ -94,13 +94,13 @@ main {
   display: grid;
   justify-content: center;
   margin: 2rem;
+  grid-gap: 6rem;
 }
 
 .card {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 1rem;
   gap: 12px;
   background: #fff;
@@ -114,11 +114,18 @@ main {
   color: #344563;
 }
 
+.card-block h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #172b4d;
+}
+
 .frame {
   display: flex;
   flex-direction: row;
   grid-gap: 0.8rem;
   padding: 0;
+  margin-bottom: 0.5rem;
 }
 
 .frame li {
@@ -144,7 +151,7 @@ main {
 .card-tags li {
   margin: 0.5rem;
   background-color: #ebebff;
-  padding: 1px 12px;
+  padding: 4px 12px;
   border-radius: 8px;
 }
 
@@ -153,6 +160,8 @@ main {
   font-size: 0.75rem;
   line-height: 16px;
   color: #6070ff;
+  display: flex;
+  align-items: center;
 }
 
 button {
@@ -167,4 +176,8 @@ button {
   height: 48px;
   color: #6070ff;
   background-color: transparent;
+}
+
+.card-button:hover {
+  text-decoration: underline;
 }
