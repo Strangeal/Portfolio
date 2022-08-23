@@ -179,6 +179,8 @@ button {
   color: #fff;
 }
 
+/* About me style */
+
 .about {
   box-sizing: border-box;
   background: #fff;
@@ -254,4 +256,69 @@ li .lang-child img {
 .hr {
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
+}
+
+/* contact form styles */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  background-color: #6070ff;
+  box-sizing: border-box;
+  border: 1px solid #6070ff;
+  border-top-left-radius: 2rem;
+  padding: 6rem 2rem;
+  height: auto;
+}
+
+.form-bg-img {
+  position: absolute;
+  width: 60%;
+  height: auto;
+  left: 160px;
+}
+
+.form-group h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 52px;
+  color: #fff;
+  padding-top: 6rem;
+}
+
+.form-group p {
+  font-size: 1.2rem;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  display: flex;
+  margin: 2rem 0;
+}
+
+.form-group input,
+textarea {
+  background-color: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 0.8rem 0;
+  margin: 10px 0;
+  width: 100%;
+  color: #b3bac5;
+}
+
+::placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: #b3bac5;
+  font-size: 15px;
+  padding-left: 1rem;
+}
+
+.btn {
+  background: #fff;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
