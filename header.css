@@ -27,6 +27,15 @@ a {
   font-size: 18px;
 }
 
+.logo:hover {
+  transform: translate(8px) rotate(360deg);
+}
+
+.logo {
+  transition-delay: 0.5s;
+  transition-duration: 1s;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -116,6 +125,7 @@ main {
   gap: 12px;
   border-radius: 1rem;
   margin: 2rem 2rem 0 2rem;
+  box-shadow: 10px 10px 20px rgb(64, 63, 63);
 }
 
 .card-block p {
@@ -700,7 +710,7 @@ textarea {
   .social-icons img:hover {
     transition: transform 250ms;
     transform: scale(1.2);
-    outline: 2px solid red;
+    fill: red;
   }
 
   .form-child {
