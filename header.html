@@ -13,26 +13,26 @@
 </head>
 <body>
     <header class="header">
-        <img src="img/header-shapesmobile@2x.svg" alt="" class="bg-shapes">
-            <nav>
-                <ul class="navigation">
-                    <li class="logo">
-                        <a href="#">My Logo</a>
-                    </li>
+            <nav class="navigation">
+                <p class="logo">
+                    <a href="#">My Logo</a>
+                </p>
+                <ul class="nav-items">
+                    <li class="nav-link"><a href="#">Portfolio</a></li>
+                    <li class="nav-link"><a href="#">About</a></li>
+                    <li class="nav-link"><a href="#">Contact</a></li>
                     <li class="menu-icon">
                         <a href=""><i class="fa-solid fa-bars"></i></a>
                     </li>
                 </ul>
             </nav>
-    </header>
+    </header>  
+    <main>
         <!--Front Page-->
         <section class="dev">
-            <h1>I’m Mariane
-                Glad to see you!
-            </h1>
-                <p>
-                    I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-                </p>
+            <div class="dev-child">
+                <h1>I’m Justice Glad to see you!</h1>
+                <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                 <a href="#">LET’S CONNECT</a>
                 <ul class="social-icons">
                     <li><a href="#"><img src="img/github.svg" alt="Twitter"></a></li>
@@ -41,96 +41,99 @@
                     <li><a href="#"><img src="img/twitter.svg" alt="Github"></a></li>
                     <li><a href="#"><img src="img/medium.svg" alt="Vector"></a></li>      
                 </ul>
+            </div>
         </section>
         <!--Works-->
-        <main>
-            <section class="card">
-                <img src="img/Snapshoot-Portfolio.svg" alt="Snapshoot-Portfolio">
-                <div class="card-block">
-                    <h2>Tonic</h2>
-                    <ul class="frame">
-                        <li class="no-count">CANOPY</li>
-                        <li>Back End Dev</li>
-                        <li>2015</li>
-                    </ul>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="card-tags">
-                        <li><a href="">html</a></li>
-                        <li><a href="">css</a></li>
-                        <li><a href="">javascript</a></li>
-                    </ul>
-                    <button class="card-button" type="submit">See Project</button>
-                </div>
-            </section>
-            <!--Work Cards 2-->
-            <section class="card">
-                <img src="img/Snapshoot-Portfolio1.svg" alt="Snapshoot-Portfolio">
-                <div class="card-block">
-                    <h2>Multi-Post Stories</h2>
-                    <ul class="frame">
-                        <li class="no-count">CANOPY</li>
-                        <li>Back End Dev</li>
-                        <li>2015</li>
-                    </ul>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="card-tags">
-                        <li><a href="">html</a></li>
-                        <li><a href="">css</a></li>
-                        <li><a href="">javascript</a></li>
-                    </ul>
-                    <button class="card-button" type="submit">See Project</button>
-                </div>
-            </section>
-            <!--Work Cards 3-->
-            <section class="card">
-                <img src="img/Snapshoot-Portfolio2.svg" alt="Snapshoot-Portfolio">
-                <div class="card-block">
-                    <h2>Tonic</h2>
-                    <ul class="frame">
-                        <li class="no-count">CANOPY</li>
-                        <li>Back End Dev</li>
-                        <li>2015</li>
-                    </ul>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="card-tags">
-                        <li><a href="">html</a></li>
-                        <li><a href="">css</a></li>
-                        <li><a href="">javascript</a></li>
-                    </ul>
-                    <button class="card-button" type="submit">See Project</button>
-                </div>
-            </section>
-            <!--Work Cards 4-->
-            <section class="card">
-                <img src="img/Snapshoot-Portfolio3.svg" alt="Snapshoot-Portfolio">
-                <div class="card-block">
-                    <h2>Multi-Post Stories</h2>
-                    <ul class="frame">
-                        <li class="no-count">CANOPY</li>
-                        <li>Back End Dev</li>
-                        <li>2015</li>
-                    </ul>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="card-tags">
-                        <li><a href="">html</a></li>
-                        <li><a href="">css</a></li>
-                        <li><a href="">javascript</a></li>
-                    </ul>
-                    <button class="card-button" type="submit">See Project</button>
-                </div>
-            </section>
-            <section class="about">
+        <section class="card">
+            <img src="img/Snapshoot-Portfolio.svg" alt="Snapshoot-Portfolio">
+            <div class="card-block">
+                <h2>Tonic</h2>
+                <ul class="card-frame">
+                    <li class="no-count">CANOPY</li>
+                    <li>Back End Dev</li>
+                    <li>2015</li>
+                </ul>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <ul class="card-tags">
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                </ul>
+                <button class="card-button" type="submit">See Project</button>
+            </div>
+        </section>
+        <!--Work Cards 2-->
+        <section class="card card-reverse">
+            <img src="img/Snapshoot-Portfolio1.svg" alt="Snapshoot-Portfolio" class="float-img">
+            <div class="card-block">
+                <h2>Multi-Post Stories</h2>
+                <ul class="card-frame">
+                    <li class="no-count">CANOPY</li>
+                    <li>Back End Dev</li>
+                    <li>2015</li>
+                </ul>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <ul class="card-tags">
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                </ul>
+                <button class="card-button" type="submit">See Project</button>
+            </div>
+        </section>
+        <!--Work Cards 3-->
+        <section class="card">
+            <img src="img/Snapshoot-Portfolio2.svg" alt="Snapshoot-Portfolio">
+            <div class="card-block">
+                <h2>Tonic</h2>
+                <ul class="card-frame">
+                    <li class="no-count">CANOPY</li>
+                    <li>Back End Dev</li>
+                    <li>2015</li>
+                </ul>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <ul class="card-tags">
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                </ul>
+                <button class="card-button" type="submit">See Project</button>
+            </div>
+        </section>
+        <!--Work Cards 4-->
+        <section class="card card-reverse">
+            <img src="img/Snapshoot-Portfolio3.svg" alt="Snapshoot-Portfolio">
+            <div class="card-block">
+                <h2>Multi-Post Stories</h2>
+                <ul class="card-frame">
+                    <li class="no-count">CANOPY</li>
+                    <li>Back End Dev</li>
+                    <li>2015</li>
+                </ul>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <ul class="card-tags">
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                </ul>
+                <button class="card-button" type="submit">See Project</button>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about-child">
                 <h2>About Myself</h2>
                 <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                 <a href="#">LET’S CONNECT</a>
-                <ul class="social-icons">
-                    <li><a href="#"><img src="img/twitter.svg" alt="Twitter"></a></li>
-                    <li><a href="#"><img src="img/Linkedin.svg" alt="Linkedin"></a></li>
-                    <li><a href="#"><img src="img/medium.svg" alt="Medium"></a></li>
-                    <li><a href="#"><img src="img/github.svg" alt="Github"></a></li>
-                    <li><a href="#"><img src="img/Vector.svg" alt="Vector"></a></li>      
-                </ul>
-                <button class="btn" type="submit">Get my resume</button>
+            <ul class="social-icons">
+                <li><a href="#"><img src="img/twitter.svg" alt="Twitter"></a></li>
+                <li><a href="#"><img src="img/Linkedin.svg" alt="Linkedin"></a></li>
+                <li><a href="#"><img src="img/medium.svg" alt="Medium"></a></li>
+                <li><a href="#"><img src="img/github.svg" alt="Github"></a></li>
+                <li><a href="#"><img src="img/Vector.svg" alt="Vector"></a></li>      
+            </ul>
+            <button class="btn" type="submit">Get my resume</button>
+            </div>
+            <!-- Developer Stills -->
             <div class="skill-list">
                 <ul>
                     <li class="p">Languages
@@ -145,19 +148,20 @@
                     <li class="p hr">Skills <img src="img/Union-right.svg" alt="counter" class="counter"></li>
                 </ul>
                 </div>
-            </section>
-            <!-- Contact form -->
-            <section class="form-group">
-                <img src="img/contact-form-shapes-mobile.svg" alt="Background shapes design" class="form-bg-img">
+        </section>
+        <!-- Contact form -->
+        <section class="form-group">
+            <div class="form-child">
                 <h2>Contact me</h2>
                 <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.</p>
                 <form action="https://formspree.io/f/myyvzkjz" method="POST" class="form-input">
-                    <input type="text" name="text" id="name" placeholder="Enter your name" maxlength="30" required>
-                    <input type="email" name="Email" id="email" placeholder="Enter your email" required>
-                    <textarea name="comments" id="comments" cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
-                    <button class="btn" type="submit">Get It Touch</button>
-                </form>
-            </section>
-        </main>
+                <input type="text" name="text" id="name" placeholder="Enter your name" maxlength="30" required>
+                <input type="email" name="Email" id="email" placeholder="Enter your email" required>
+                <textarea name="comments" id="comments" cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
+                <button class="btn" type="submit">Get It Touch</button>
+            </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
