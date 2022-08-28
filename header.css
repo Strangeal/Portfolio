@@ -333,6 +333,7 @@ textarea {
 
 .btn {
   background: var(--clr-white);
+  display: flex;
 }
 
 .btn:hover {
@@ -365,7 +366,8 @@ textarea {
   }
 
   .about {
-    margin-top: 5rem;
+    margin: 5rem 0 0 0;
+    padding-bottom: 6rem;
   }
 
   .about-child a {
@@ -413,16 +415,13 @@ textarea {
   }
 
   .about {
-    margin-top: 5rem;
+    margin: 5rem 0 0 0;
+    padding-bottom: 6rem;
   }
 
   .about-child a {
     font-weight: 500;
     color: #7f8cff;
-  }
-
-  .skill-list .p {
-    margin: 0 4rem;
   }
 }
 
@@ -487,7 +486,8 @@ textarea {
   }
 
   .about {
-    margin-top: 5rem;
+    margin: 5rem 0 0 0;
+    padding-bottom: 6rem;
   }
 
   .about-child {
@@ -501,6 +501,10 @@ textarea {
 
   .form-group h2 {
     padding-top: 2rem;
+  }
+
+  .skill-list .p {
+    margin: 0 5.3rem;
   }
 }
 
@@ -526,6 +530,7 @@ textarea {
     display: grid;
     grid-template-columns: 300px 2fr;
     padding-top: 5rem;
+    margin-bottom: 0;
   }
 
   .logo {
@@ -534,7 +539,7 @@ textarea {
   }
 
   .logo a {
-    margin-left: 7rem;
+    margin-left: 3.5rem;
   }
 
   .logo:hover {
@@ -554,6 +559,10 @@ textarea {
   .dev a {
     font-size: 1.2rem;
     font-weight: 500;
+  }
+
+  .dev-child {
+    margin: 8rem;
   }
 
   .social-icons svg {
@@ -606,7 +615,7 @@ textarea {
 
   .about-child {
     margin: auto 0 0 3rem;
-    padding: 4rem 0 0 0;
+    padding: 4rem 0 8rem 0;
   }
 
   .about h2 {
@@ -661,14 +670,6 @@ textarea {
   .skill-list p {
     padding: 1.1rem 0;
   }
-
-  .btn {
-    margin: 1rem 0;
-  }
-
-  .nav-items {
-    margin-right: 7rem;
-  }
 }
 
 /* Styles for 900px screen */
@@ -686,10 +687,12 @@ textarea {
     display: grid;
     grid-template-columns: 500px 1fr;
     padding-top: 5rem;
+    margin-bottom: 0;
   }
 
   .about-child {
     margin-left: 5rem;
+    padding-bottom: 10rem;
   }
 
   .dev h1 {
@@ -730,16 +733,11 @@ textarea {
   }
 
   .form-child {
-    margin: 0 20rem;
+    margin: 0 10rem;
   }
 
   .form-group h2 {
     padding-top: 2rem;
-  }
-
-  .btn {
-    display: flex;
-    justify-content: center;
   }
 
   .lang {
@@ -758,47 +756,62 @@ textarea {
     margin: 3rem 10rem;
   }
 
+  .card-block {
+    line-height: 15px;
+    margin-top: 0;
+  }
+
   .card-frame {
     margin: 0.5rem 0;
   }
 
   .card-frame li {
-    font-size: 16px;
-    margin: 0 10px;
+    font-size: 14px;
+    margin: 0 5px;
   }
 
   .card-block p {
     font-size: 16px;
+    line-height: 15px;
   }
 
   .card-block h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 35px;
   }
 
   .card-tags {
-    margin: 1.5rem 0;
+    margin: 1rem 0;
   }
 
   .card-tags li {
     font-size: 1rem;
-    padding: 6px 16px;
+    padding: 4px 14px;
   }
 
-  /* button */
-  button {
-    padding: 15px 35px;
+  .nav-items {
+    margin-right: 7rem;
+  }
+
+  .logo a {
+    margin-left: 7rem;
   }
 }
 
 /* Style for 1024px screen */
 @media screen and (min-width: 1024px) {
+  .card {
+    gap: 1.5rem;
+  }
+
   .card-frame li {
     margin: 10px;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .card-block {
-    padding-top: 20px;
+    padding-top: 40px;
   }
 
   .nav-link a {
@@ -807,5 +820,15 @@ textarea {
 
   .form-child {
     margin: 0 20rem;
+  }
+
+  .card-tags li {
+    padding: 4px 12px;
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 17px;
+    padding: 14px;
   }
 }
