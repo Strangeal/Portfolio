@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](git@github.com:Strangeal/Portfolio.git)
+[Live Demo Link]()
 
 ## Get Started
 
