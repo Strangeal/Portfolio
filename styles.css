@@ -47,7 +47,7 @@ a {
 }
 
 .nav-link a {
-  color: var(--clr-para);
+  color: #fff;
 }
 
 .social-icons a {
@@ -580,11 +580,15 @@ textarea {
     height: 0;
     padding-top: 0;
     background: none;
-    font-weight: 300;
+    font-weight: 500;
     opacity: 1;
     align-items: center;
     justify-content: end;
     font-size: 15px;
+  }
+
+  .nav-link a {
+    color: var(--clr-para);
   }
 }
 
@@ -761,11 +765,15 @@ textarea {
     height: 0;
     padding-top: 0;
     background: none;
-    font-weight: 300;
+    font-weight: 500;
     opacity: 1;
     align-items: center;
     justify-content: end;
     font-size: 15px;
+  }
+
+  .nav-link a {
+    color: var(--clr-para);
   }
 }
 
