@@ -18,13 +18,15 @@
                     <a href="#">My Logo</a>
                 </p>
                 <ul class="nav-items">
-                    <li class="nav-link"><a href="#">Portfolio</a></li>
-                    <li class="nav-link"><a href="#">About</a></li>
-                    <li class="nav-link"><a href="#">Contact</a></li>
-                    <li class="menu-icon">
-                        <a href=""><i class="fa-solid fa-bars"></i></a>
-                    </li>
+                    <li class="nav-link"><a href="#Portfolio">Portfolio</a></li>
+                    <li class="nav-link"><a href="#About">About</a></li>
+                    <li class="nav-link"><a href="#Contact">Contact</a></li>
                 </ul>
+                    <div class="menu-icon">
+                        <span class="bar1"></span>
+                        <span class="bar2"></span>
+                        <span class="bar3"></span>
+                    </div>
             </nav>
     </header>  
     <main>
@@ -71,7 +73,7 @@
             </div>
         </section>
         <!--Works-->
-        <section class="card">
+        <section class="card" id="Portfolio">
             <img src="img/Snapshoot-Portfolio.svg" alt="Snapshoot-Portfolio">
             <div class="card-block">
                 <h2>Tonic</h2>
@@ -147,7 +149,7 @@
             </div>
         </section>
         <!-- About -->
-        <section class="about">
+        <section class="about" id="About">
             <div class="about-child">
                 <h2>About Myself</h2>
                 <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -205,7 +207,7 @@
                 </div>
         </section>
         <!-- Contact form -->
-        <section class="form-group">
+        <section class="form-group" id="Contact">
             <div class="form-child">
                 <h2>Contact me</h2>
                 <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.</p>
@@ -218,5 +220,6 @@
             </div>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>

@@ -9,6 +9,7 @@
 
 - html
 - css
+- Javascript
 
 ## Live Demo
 
