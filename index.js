@@ -101,3 +101,37 @@ projectList.forEach((project, id) => {
 const overlay = document.querySelector('.overlay');
 const overlayCloseBtn = document.querySelector('.close-overlay');
 const overlayContainer = document.querySelector('.container');
+/ PopUp
+const popUpHandler = ((obj) => {
+  const template = `
+  <div class="overlay-content">
+    <div class="feature">
+      <div class="model-top">
+        <h3>${obj.title}</h3>
+        <button class="close-overlay" onClick="closePopUp()">&times</button>
+      </div>
+      <ul class="card-frame featureList">
+        <li class="no-count">${obj.feature[0]}</li>
+        <li>${obj.feature[1]}</li>
+        <li>${obj.feature[2]}</li>
+      </ul>
+      <img class="model_img" src="${obj.model_img}" alt="" />
+       <div class="popBottomContent">
+          <p>${obj.full_desc}</p>
+          <ul class="card-tags model-tags">
+            <li>${obj.model_tags[0]}</li>
+            <li>${obj.model_tags[1]}</li>
+            <li>${obj.model_tags[2]}</li>
+            <li>${obj.model_tags[3]}</li>
+            <li>${obj.model_tags[4]}</li>
+            <li>${obj.model_tags[5]}</li>
+            <div class="popButtoms">
+              <button>See live <img src="${obj.live_img}" alt="" /></button>
+              <button class="secondchild">See Source <img src="${obj.src_Img}" alt="" /></button>
+            </div>
+          </ul>
+      </div>
+    </div>
+  </div>`;
+  return template;
+});
