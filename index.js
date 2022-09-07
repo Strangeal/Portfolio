@@ -101,7 +101,7 @@ projectList.forEach((project, id) => {
 const overlay = document.querySelector('.overlay');
 const overlayCloseBtn = document.querySelector('.close-overlay');
 const overlayContainer = document.querySelector('.container');
-/ PopUp
+// PopUp
 const popUpHandler = ((obj) => {
   const template = `
   <div class="overlay-content">
@@ -135,3 +135,17 @@ const popUpHandler = ((obj) => {
   </div>`;
   return template;
 });
+
+function overlayAppHandler(obj) {
+  overlay.classList.remove('disable');
+  const ids = obj.parentNode.id.split('-')[1];
+
+  const fetchObj = projectList.filter((each) => each.id === ids);
+  const dynamicTemplate = popUpHandler(fetchObj[0]);
+  overlay.innerHTML = '';
+  overlay.innerHTML += dynamicTemplate;
+}
+
+function closePopUp() {
+  overlay.classList.add('disable');
+}
