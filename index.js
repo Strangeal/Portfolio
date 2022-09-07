@@ -76,3 +76,28 @@ const projectList = [{
   classNm: 'card-reverse',
 },
 ];
+// Cards inner
+const cardEl = document.querySelector('.cards');
+projectList.forEach((project, id) => {
+  cardEl.innerHTML += `<section class="card ${project.classNm}">  
+  <img src="${project.card_img}" alt="Snapshoot-Portfolio">
+      <div class="card-block" id="arti-${id + 1}">
+          <h2>${project.title}</h2>
+          <ul class="card-frame">
+              <li class="no-count">${project.feature[0]}</li>
+              <li>${project.feature[1]}</li>
+              <li>${project.feature[2]}</li>
+          </ul>
+          <p>${project.short_desc}</p>
+          <ul class="card-tags">
+              <li>${project.card_tags[0]}</li>
+              <li>${project.card_tags[1]}</li>
+              <li>${project.card_tags[2]}</li>
+          </ul>
+          <button class="card-button" type="submit" onClick="overlayAppHandler(this)">See Project</button>
+</div></section>`;
+});
+
+const overlay = document.querySelector('.overlay');
+const overlayCloseBtn = document.querySelector('.close-overlay');
+const overlayContainer = document.querySelector('.container');
