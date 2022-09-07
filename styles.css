@@ -54,6 +54,19 @@ a {
   margin-right: 1.2rem;
 }
 
+/* PopUp */
+.popButtoms a {
+  border: 1px solid var(--clr-purple);
+  border-radius: 8px;
+  color: var(--clr-purple);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* end */
+
 .nav-link a:hover {
   color: var(--clr-para);
 }
@@ -328,6 +341,13 @@ button {
   border-radius: 8px;
 }
 
+/* popUp */
+.popButtoms img {
+  padding-left: 10px;
+}
+
+/* end */
+
 li .lang-child img {
   margin-right: 10px;
 }
@@ -506,20 +526,6 @@ textarea {
   font-size: 30px;
   line-height: 52px;
   color: #091e42;
-}
-
-.popButtoms img {
-  padding-left: 10px;
-}
-
-.popButtoms a {
-  border: 1px solid var(--clr-purple);
-  border-radius: 8px;
-  color: var(--clr-purple);
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .popButtoms a:hover {
@@ -816,6 +822,13 @@ textarea {
     margin: 3rem;
   }
 
+  /* PopUp */
+  .popButtoms img {
+    padding-left: 10px;
+  }
+
+  /* end */
+
   .card-reverse img:nth-of-type(1) {
     order: 1;
   }
@@ -962,10 +975,6 @@ textarea {
     display: flex;
     gap: 10px;
     padding-top: 2rem;
-  }
-
-  .popButtoms img {
-    padding-left: 10px;
   }
 
   .popButtoms a {
