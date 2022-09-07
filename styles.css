@@ -448,6 +448,7 @@ textarea {
 .popButtoms {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
   padding-top: 4rem;
   margin-bottom: 0;
@@ -505,6 +506,24 @@ textarea {
   font-size: 30px;
   line-height: 52px;
   color: #091e42;
+}
+
+.popButtoms img {
+  padding-left: 10px;
+}
+
+.popButtoms a {
+  border: 1px solid var(--clr-purple);
+  border-radius: 8px;
+  color: var(--clr-purple);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popButtoms a:hover {
+  color: var(--clr-para);
 }
 
 /* Style for 320px screens  */
@@ -880,6 +899,7 @@ textarea {
     padding: 1.1rem 0;
   }
 
+  /* PopUp */
   .nav-items {
     display: flex;
     position: static;
@@ -942,6 +962,24 @@ textarea {
     display: flex;
     gap: 10px;
     padding-top: 2rem;
+  }
+
+  .popButtoms img {
+    padding-left: 10px;
+  }
+
+  .popButtoms a {
+    border: 1px solid var(--clr-purple);
+    border-radius: 8px;
+    color: var(--clr-purple);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .popButtoms a:hover {
+    color: var(--clr-para);
   }
 
   .model-tags {

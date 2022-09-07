@@ -18,7 +18,7 @@ const projectList = [{
   title: 'Tonic',
   feature: ['CANOPY', 'Back End Dev', 2015],
   short_desc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  full_desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  full_desc: 'Lorem ipsum it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   live_link: 'https://strangeal.github.io/Portfolio/',
   src_link: 'https://strangeal.github.io/Portfolio/',
   card_img: 'img/Snapshoot-Portfolio.svg',
@@ -33,7 +33,7 @@ const projectList = [{
   title: 'Multi-Post Stories',
   feature: ['FACEBOOK', 'Full Stack Dev', 2015],
   short_desc: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-  full_desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  full_desc: 'Lorem ipsum it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   live_link: 'https://strangeal.github.io/Portfolio/',
   src_link: 'https://strangeal.github.io/Portfolio/',
   card_img: 'img/Snapshoot-Portfolio1.svg',
@@ -49,7 +49,7 @@ const projectList = [{
   title: 'Facebook 360',
   feature: ['FACEBOOK', 'Full Stack Dev', 2015],
   short_desc: 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-  full_desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  full_desc: 'Lorem ipsum it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   live_link: 'https://strangeal.github.io/Portfolio/',
   src_link: 'https://strangeal.github.io/Portfolio/',
   card_img: 'img/Snapshoot-Portfolio2.svg',
@@ -64,7 +64,7 @@ const projectList = [{
   title: 'Uber Navigation',
   feature: ['Uber', 'Lead Developer', 2018],
   short_desc: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-  full_desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  full_desc: 'Lorem ipsum it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   live_link: 'https://strangeal.github.io/Portfolio/',
   src_link: 'https://strangeal.github.io/Portfolio/',
   card_img: 'img/Snapshoot-Portfolio3.svg',
@@ -99,8 +99,6 @@ projectList.forEach((project, id) => {
 });
 
 const overlay = document.querySelector('.overlay');
-const overlayCloseBtn = document.querySelector('.close-overlay');
-const overlayContainer = document.querySelector('.container');
 // PopUp
 const popUpHandler = ((obj) => {
   const template = `
@@ -126,8 +124,8 @@ const popUpHandler = ((obj) => {
             <li>${obj.model_tags[4]}</li>
             <li>${obj.model_tags[5]}</li>
             <div class="popButtoms">
-              <button>See live <img src="${obj.live_img}" alt="" /></button>
-              <button class="secondchild">See Source <img src="${obj.src_Img}" alt="" /></button>
+              <a href="${obj.live_link}" type="submit">See live <img src="${obj.live_img}" alt="" /></a>
+              <a href="${obj.src_link}" type="sumbit" class="secondchild">See Source <img src="${obj.src_Img}" alt="" /></a>
             </div>
           </ul>
       </div>
