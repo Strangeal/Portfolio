@@ -441,7 +441,8 @@ textarea {
 .overlay-content {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(193, 199, 208, 0.2);
+  backdrop-filter: blur(8px);
   position: fixed;
   top: 0;
   z-index: 10;
@@ -468,10 +469,12 @@ textarea {
 .popButtoms {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 10px;
-  padding-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ebecf0;
   margin-bottom: 0;
+  width: -webkit-fill-available
 }
 
 .feature .popButtoms .secondchild {
@@ -482,6 +485,8 @@ textarea {
   display: flex;
   flex-flow: row wrap;
   height: max-content;
+  column-gap: 10px;
+  row-gap: 10px;
 }
 
 .model-tags li {
@@ -934,6 +939,7 @@ textarea {
     color: var(--clr-para);
   }
 
+/* PopUp */
   .feature {
     background-color: #fff;
     width: 60%;
@@ -946,7 +952,8 @@ textarea {
   .overlay-content {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(193, 199, 208, 0.2);
+    backdrop-filter: blur(8px);
     position: fixed;
     top: 0;
     z-index: 10;
@@ -973,8 +980,10 @@ textarea {
 
   .popButtoms {
     display: flex;
+    justify-content: space-between;
     gap: 10px;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ebecf0;
   }
 
   .popButtoms a {
@@ -994,7 +1003,8 @@ textarea {
   .model-tags {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
     flex-flow: row wrap;
     height: max-content;
   }
