@@ -585,6 +585,24 @@ textarea {
     display: flex;
     row-gap: 10px;
   }
+
+  /* PopUp */
+  .popButtoms a {
+    font-size: 13px;
+  }
+
+  .feature {
+    padding: 0 1rem;
+  }
+
+  .feature p {
+    font-size: 12px;
+  }
+
+  .model-tags li {
+    font-size: 11px;
+    margin-right: 0;
+  }
 }
 
 /* Styles for 480px screen */
