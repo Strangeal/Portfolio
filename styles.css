@@ -474,7 +474,7 @@ textarea {
   padding-top: 1.5rem;
   border-top: 1px solid #ebecf0;
   margin-bottom: 0;
-  width: -webkit-fill-available
+  width: -webkit-fill-available;
 }
 
 .feature .popButtoms .secondchild {
@@ -939,7 +939,7 @@ textarea {
     color: var(--clr-para);
   }
 
-/* PopUp */
+  /* PopUp */
   .feature {
     background-color: #fff;
     width: 60%;
