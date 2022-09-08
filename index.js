@@ -94,11 +94,10 @@ projectList.forEach((project, id) => {
               <li>${project.card_tags[1]}</li>
               <li>${project.card_tags[2]}</li>
           </ul>
-          <button class="card-button" type="submit" onClick="overlayAppHandler(this)">See Project</button>
+          <button class="card-button" type="submit" >See Project</button>
 </div></section>`;
 });
 
-const overlay = document.querySelector('.overlay');
 // PopUp
 const popUpHandler = ((obj) => {
   const template = `
@@ -106,7 +105,7 @@ const popUpHandler = ((obj) => {
     <div class="feature">
       <div class="model-top">
         <h3>${obj.title}</h3>
-        <button class="close-overlay" onClick="closePopUp()">&times</button>
+        <button class="close-overlay">&times</button>
       </div>
       <ul class="card-frame featureList">
         <li class="no-count">${obj.feature[0]}</li>
@@ -134,16 +133,20 @@ const popUpHandler = ((obj) => {
   return template;
 });
 
-function overlayAppHandler(obj) {
+const overlay = document.querySelector('.overlay');
+const cardButton = document.querySelectorAll('.card-button');
+
+cardButton.forEach((each) => each.addEventListener('click', function OpenPopUp() {
   overlay.classList.remove('disable');
-  const ids = obj.parentNode.id.split('-')[1];
+  const ids = this.parentNode.id.split('-')[1];
 
   const fetchObj = projectList.filter((each) => each.id === ids);
   const dynamicTemplate = popUpHandler(fetchObj[0]);
   overlay.innerHTML = '';
   overlay.innerHTML += dynamicTemplate;
-}
 
-function closePopUp() {
-  overlay.classList.add('disable');
-}
+  const closeOverlay = document.querySelector('.close-overlay');
+  closeOverlay.addEventListener('click', () => {
+    overlay.classList.add('disable');
+  });
+}));
