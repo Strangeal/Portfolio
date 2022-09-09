@@ -172,6 +172,7 @@ const setSuccess = (element) => {
   inputField.classList.add('success');
   inputField.classList.remove('error');
 };
+
 // Email order check
 const isValidEmail = (email) => {
   const re = /^([a-z-]+)@([a-z\d]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
@@ -194,4 +195,3 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   validateInputs();
 });
-
