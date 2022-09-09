@@ -172,3 +172,26 @@ const setSuccess = (element) => {
   inputField.classList.add('success');
   inputField.classList.remove('error');
 };
+// Email order check
+const isValidEmail = (email) => {
+  const re = /^([a-z-]+)@([a-z\d]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
+  return re.test(email);
+};
+
+const validateInputs = () => {
+  const emailValue = email.value.trim();
+
+  if (emailValue === '') {
+    setError(email, 'Email is required');
+  } else if (!isValidEmail(emailValue)) {
+    setError(email, 'Provide a valid email address');
+  } else {
+    setSuccess(email);
+  }
+};
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  validateInputs();
+});
+
