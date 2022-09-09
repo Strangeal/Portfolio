@@ -184,3 +184,16 @@ const validateInputs = (e) => {
 form.addEventListener('submit', (e) => {
   validateInputs(e);
 });
+
+// Local Storage
+const nameEl = document.querySelector('#name');
+const nameVal = localStorage.getItem('nameEl');
+if (nameEl) {
+  nameEl.value = nameVal;
+}
+
+const mailEl = document.querySelector('#email');
+const emailVal = localStorage.getItem('mailEl');
+if (mailEl) {
+  mailEl.value = emailVal;
+}
