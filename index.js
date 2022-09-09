@@ -156,42 +156,31 @@ const form = document.querySelector('.form-input');
 const email = document.getElementById('email');
 
 // Error Mesaage for Invalid email
-const setError = (element, message) => {
-  const inputField = element.parentElement;
-  const errorDisplay = inputField.querySelector('.error');
+const setError = (message) => {
+  const errorDisplay = document.querySelector('.error');
   errorDisplay.innerText = message;
-  inputField.classList.add('error');
-  inputField.classList.remove('success');
 };
 
 // Success Mesaage for Valid email
-const setSuccess = (element) => {
-  const inputField = element.parentElement;
-  const errorDisplay = inputField.querySelector('.error');
+const setSuccess = () => {
+  const errorDisplay = document.querySelector('.error');
   errorDisplay.innerText = '';
-  inputField.classList.add('success');
-  inputField.classList.remove('error');
 };
 
-// Email order check
-const isValidEmail = (email) => {
-  const re = /^([a-z-]+)@([a-z\d]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
-  return re.test(email);
-};
-
-const validateInputs = () => {
+const validateInputs = (e) => {
   const emailValue = email.value.trim();
 
   if (emailValue === '') {
-    setError(email, 'Email is required');
-  } else if (!isValidEmail(emailValue)) {
-    setError(email, 'Provide a valid email address');
+    setError('Email is required');
+    e.preventDefault();
+  } else if (emailValue.toLowerCase() !== emailValue) {
+    setError('Provide a valid email address');
+    e.preventDefault();
   } else {
-    setSuccess(email);
+    setSuccess();
   }
 };
 
 form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  validateInputs();
+  validateInputs(e);
 });
