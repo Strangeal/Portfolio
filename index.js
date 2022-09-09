@@ -150,3 +150,37 @@ cardButton.forEach((each) => each.addEventListener('click', function OpenPopUp()
     overlay.classList.add('disable');
   });
 }));
+
+// Form Validation
+const form = document.querySelector('.form-input');
+const email = document.getElementById('email');
+
+// Error Mesaage for Invalid email
+const setError = (message) => {
+  const errorDisplay = document.querySelector('.error');
+  errorDisplay.innerText = message;
+};
+
+// Success Mesaage for Valid email
+const setSuccess = () => {
+  const errorDisplay = document.querySelector('.error');
+  errorDisplay.innerText = '';
+};
+
+const validateInputs = (e) => {
+  const emailValue = email.value.trim();
+
+  if (emailValue === '') {
+    setError('Email is required');
+    e.preventDefault();
+  } else if (emailValue.toLowerCase() !== emailValue) {
+    setError('Provide a valid email address');
+    e.preventDefault();
+  } else {
+    setSuccess();
+  }
+};
+
+form.addEventListener('submit', (e) => {
+  validateInputs(e);
+});

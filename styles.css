@@ -375,6 +375,10 @@ li .lang-child img {
   box-shadow: -5px -15px 10px -10px rgba(83, 81, 81, 0.15);
 }
 
+.form-input {
+  position: relative;
+}
+
 .form-bg-img {
   position: absolute;
   width: 60%;
@@ -426,6 +430,14 @@ textarea {
 .btn:hover {
   background-color: var(--clr-purple);
   color: var(--clr-white);
+}
+
+.error {
+  position: absolute;
+  left: 10rem;
+  bottom: 1rem;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
 }
 
 /* PopUp Window */
