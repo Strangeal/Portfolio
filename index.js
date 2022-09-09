@@ -197,6 +197,7 @@ const emailVal = localStorage.getItem('mailEl');
 if (mailEl) {
   mailEl.value = emailVal;
 }
+
 const commentsEl = document.querySelector('#comments');
 const commentsVal = localStorage.getItem('commentsEl');
 if (commentsEl) {
