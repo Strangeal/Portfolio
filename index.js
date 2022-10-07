@@ -15,17 +15,17 @@ document.querySelectorAll('.nav-link a').forEach((n) => (n).addEventListener('cl
 // Cards Array
 const projectList = [{
   id: '1',
-  title: 'Tonic',
-  feature: ['CANOPY', 'Back End Dev', 2015],
+  title: 'Clickbank',
+  feature: ['CLICKBANK', 'Affiliate marketing', 2022],
   short_desc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   full_desc: 'Lorem ipsum it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  live_link: 'https://strangeal.github.io/Portfolio/',
-  src_link: 'https://strangeal.github.io/Portfolio/',
-  card_img: 'img/Snapshoot-Portfolio.svg',
-  model_img: 'img/Snapshoot-Portfolio.svg',
+  live_link: 'https://strangeal.github.io/clickbank/index.html',
+  src_link: 'https://github.com/Strangeal/clickbank/',
+  card_img: 'img/shot.png',
+  model_img: 'img/desktopview.jpeg',
   live_img: 'img/liveicon.svg',
   src_Img: 'img/githubsrcicon.svg',
-  model_tags: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
+  model_tags: ['html', 'css', 'javascript', 'github', 'Bootstrap'],
   card_tags: ['html', 'css', 'javascript'],
 },
 {
@@ -80,7 +80,7 @@ const projectList = [{
 const cardEl = document.querySelector('.cards');
 projectList.forEach((project, id) => {
   cardEl.innerHTML += `<section class="card ${project.classNm}">  
-  <img src="${project.card_img}" alt="Snapshoot-Portfolio">
+  <img src="${project.card_img}" class="img-${project.card_img[0]}" alt="Snapshoot-Portfolio">
       <div class="card-block" id="arti-${id + 1}">
           <h2>${project.title}</h2>
           <ul class="card-frame">
